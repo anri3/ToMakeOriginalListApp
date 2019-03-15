@@ -1,0 +1,131 @@
+<html>
+ <head>
+   <meta name="viewport" content="width=device-width,initial-scale-1.0" />
+ </head>
+
+ <style>
+   body {
+     margin: 0;
+   }
+   .appBar {
+     background-color: #ff8d14;
+     color: #fff;
+     padding: 12px;
+     text-align: center;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+     font-size: 20px;
+   }
+   .memoList {
+     display: flex;
+   }
+   .cardMemoListItem {
+     background-color: #fff;
+     padding: 12px;
+     margin: 24 8 8 8;
+     width: 80;
+     height: 80;
+     float: left;
+     border: 1px solid #ddd;
+     box-shadow: 1px 1px 0 rgba(255, 255, 255, .2) inset,
+                0 0 4px rgba(0, 0, 0, .4) inset,
+                2px 2px 2px rgba(0, 0, 0, .2);
+     border-radius: 10px;
+     text-align: center;
+     flex: 1;
+   }
+   .cardMemoListItem h3 {
+     font-size: 18px;
+     color: #ff8d14;
+   }
+   .addMemoButton {
+     width: 80px;
+     height: 80px;
+     background-color: #47bd47;
+     color: #ffffff;
+     text-align: center;
+     font-size: 40px;
+     line-height: 80px;
+     border-radius: 50%;
+     position: absolute;
+     bottom: 96px;
+     right: 8px;
+     box-shadow: 1px 1px 0 rgba(255, 255, 255, .4) inset,
+                0 0 4px rgba(0, 0, 0, .4) inset,
+                2px 2px 2px rgba(0, 0, 0, .1);
+   }
+   .appTabBar {
+     background-color: #ff8d14;
+     box-shadow: 4px 0 0 0 rgba(0,0,0,0.6);
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     height: 88px;
+     display: flex;
+   }
+   .tabBarItem {
+     background-color: #ff8d14;
+     float: left;
+     text-align: center;
+     flex: 1;
+   }
+   .tabBarItem h3 {
+     font-size: 20px;
+     color: #fff;
+   }
+
+   </style>
+
+
+ <body>
+   <diV>
+
+     <div class="appBar">
+       CreditCard Memo
+     </div>
+
+     <div class="memoList">
+       <div class="cardMemoListItem">
+         <h3>
+           三菱UFJ
+         </h3>
+       </div>
+       <div class="cardMemoListItem">
+         <h3>
+           yahoo
+         </h3>
+       </div>
+       <div class="cardMemoListItem">
+         <h3>
+           au
+         </h3>
+       </div>
+
+    </div>
+
+     <div class="addMemoButton">
+       ＋
+     </div>
+
+
+     <div class="appTabBar">
+       <div class="tabBarItem">
+         <h3>
+           Card
+         </h3>
+       </div>
+       <div class="tabBarItem">
+         <h3>
+           Trip
+         </h3>
+       </div>
+       <div class="tabBarItem">
+         <h3>
+           Do
+         </h3>
+       </div>
+     </div>
+
+
+   </div>
+ </body>
+</html>
